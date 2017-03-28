@@ -16,20 +16,9 @@ elsif input == "run"
  while distance <= 25
  puts "Distance run so far #{distance} km"
  distance += 5
-
-# elsif input == "Go Home"
-#   puts "Great work! Let's go home"
-# end
-# end
 end
 end
-#  else
-#  puts "So is it walking or running for today?"
-# end
+while input == "Let's go home!"
+ puts "Great work! Let's go home"
 
-# distance = 0
-#
-#
-# while distance += 5
-#   puts "Distance ran so far #{distance}"
-# end
+end
